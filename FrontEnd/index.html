@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 tier App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Your existing styles remain unchanged */
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4caf50;
+            color: white;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Set your desired background color */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .fetch-button {
+            background-color: #87CEEB; /* Pastel blue color, change it as needed */
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #data-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Fetch Data app </h1>
+    <button class="fetch-button" onclick="fetchData()">Fetch Data</button>
+    <div id="data-container"></div>
+    <script src="app.js"></script>
+</body>
+</html>
