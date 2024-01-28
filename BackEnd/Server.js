@@ -4,9 +4,9 @@ const app = express();
 const PORT = 3000;
 
 const dbConfig = {
-    host: 'localhost',
-    user: 'root',
-    password: '0000',
+    host: 'lab-db.cls88qeairfq.us-east-1.rds.amazonaws.com',
+    user: 'main',
+    password: 'lab-password',
     database: 'db'
 };
 const cors = require('cors');
